@@ -1,0 +1,19 @@
+{
+  "name": "nft-collection-erc721",
+  "version": "1.0.0",
+  "description": "ERC-721 compatible NFT smart contract with comprehensive automated test suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.7.0"
+  }
+}
